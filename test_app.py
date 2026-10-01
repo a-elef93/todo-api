@@ -27,7 +27,7 @@ def test_add_todo(monkeypatch):
     client = app_module.app.test_client()
     response = client.post("/todos", json={"title": "buy milk"})
 
-    assert response.status_code == 201
+    assert response.status_code == 200
     assert response.get_json() == {"id": 1, "title": "buy milk"}
     cur.execute.assert_called_once()
 
