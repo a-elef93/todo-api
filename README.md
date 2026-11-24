@@ -1,6 +1,6 @@
-# todo-api
-
 [![CI](https://github.com/a-elef93/todo-api/actions/workflows/ci.yml/badge.svg)](https://github.com/a-elef93/todo-api/actions/workflows/ci.yml)
+
+# todo-api
 
 A small REST API for managing to-do items, built with **Flask** and **PostgreSQL**, containerized with **Docker Compose** and shipped through a **GitHub Actions** CI/CD pipeline to **GitHub Container Registry (GHCR)**.
 
